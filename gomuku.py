@@ -61,4 +61,4 @@ if __name__ == "__main__":
 # some things to consider:
 #1. when the program starts my surrender prompt is the first thing the user sees after the turn count
 #2. Need to add a loop to check for win, the computer should let the user know when the player wins from 5 in a row horizontally, vertrically and diagonally
-#3. just want to see the changes being made
+#3. create a readme with all design choices and my step by step instructions on how I created the app
