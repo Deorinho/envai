@@ -53,16 +53,15 @@ if __name__ == "__main__":
         while 1:
             #surrender and exit after every turn ; I would like it to skip the first turn and ask the question when both players have played their turns
             print(game.currentPlayer + " TURN")
+            x = input('Enter row: ')
+            y = input('Enter col: ')
             ff = input("Surrender? Y/N: ") 
             if ff.lower() == "y":
                 print(game.currentPlayer + " Wins")
                 exit()
-            x = input('Enter row: ')
-            y = input('Enter col: ')
             if game.placePiece(int(x), int(y)):
                 break
             
 
 # some things to consider:
-#1. when the program starts my surrender prompt is the first thing the user sees after the turn count
 #2. Need to add a loop to check for win, the computer should let the user know when the player wins from 5 in a row horizontally, vertrically and diagonally
