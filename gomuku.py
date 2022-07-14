@@ -51,7 +51,7 @@ if __name__ == "__main__":
     while 1:
         print(game)
         while 1:
-            #surrender and exit after every turn ; I would like it to skip the first turn and ask the question when both players have played their turns
+            #surrender and exit after every turn
             print(game.currentPlayer + " TURN")
             x = input('Enter row: ')
             y = input('Enter col: ')
